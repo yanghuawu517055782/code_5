@@ -22,12 +22,12 @@ function setup() {
 	line(50,300,50,50);
 	textSize(15);
 		fill(131,248,255)
-	text("0%",25,300);
-		text("20%",20,260);
-		text("40%",20,220);
-		text("60%",20,180);
-		text("70%",20,140);
-		text("100%",15,100);
+	text("0%",15,300);
+		text("20%",10,260);
+		text("40%",10,220);
+		text("60%",10,180);
+		text("70%",10,140);
+		text("100%",5,100);
 	
 	
 	noStroke();
@@ -45,8 +45,8 @@ function setup() {
 	text(time[i],i*100+90,330);
  }
 	fill(255,255,255);
-	text(" Hi, Danny",300,50);
-	text("This is your last week's data.",250,80);
+	text(" Hi, Danny",500,50);
+	text("This is your last week's data.",500,80);
 	
 
 }
