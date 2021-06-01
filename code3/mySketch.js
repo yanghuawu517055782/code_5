@@ -44,6 +44,7 @@ function setup() {
 	 textSize(20);
 	text(time[i],i*100+90,330);
  }
+	fill(255,255,255);
 	text(" Hi, Danny",300,50);
 	text("This is your last week's data.",250,80);
 	
